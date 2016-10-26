@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+<p>
+  <strong>Name:</strong>
+  <%= @perfil.name %>
+</p>
+<p>
+  <strong>Direcion:</strong>
+  <%= @perfil.direcion %>
+</p>
+<p>
+  <strong>Altitud:</strong>
+  <%= @perfil.altitud %>
+</p>
+<p>
+  <strong>Longitud:</strong>
+  <%= @perfil.longitud %>
+</p>
+<p>
+  <strong>Description:</strong>
+  <%= @perfil.description %>
+</p>
+<p>
+  <strong>Mision:</strong>
+  <%= @perfil.mision %>
+</p>
+<p>
+  <strong>Vision:</strong>
+  <%= @perfil.vision %>
+</p>
+<p>
+  <strong>User:</strong>
+  <%= @perfil.user.email %>
+</p>
+<%= link_to 'Edit', edit_perfil_path(@perfil) %> |
+<%= link_to 'Back', perfils_path %>
